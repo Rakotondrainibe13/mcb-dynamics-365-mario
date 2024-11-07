@@ -1,0 +1,31 @@
+# Fichiers binaires de compilation
+bin/
+obj/
+out/
+
+# Fichiers de configuration et de build
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.log
+
+# Fichiers de test
+*.vs/
+.vscode/
+
+# Fichiers de publication
+*.publish/
+*.app/
+
+# Fichiers de débogage et de trace
+*.swp
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.bak
