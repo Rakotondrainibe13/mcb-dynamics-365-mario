@@ -1,0 +1,9 @@
+<div class="invitation-container">
+  <div class="invitation-card" *ngFor="let invite of invitations">
+    <div class="content">
+      <h3>{{ invite.subject }}</h3>
+      <p>{{ invite.body }}</p>
+    </div>
+    <button class="reject-button" (click)="declineInvitation(invite.id)">Décliner</button>
+  </div>
+</div>
